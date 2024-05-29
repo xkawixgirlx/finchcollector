@@ -8,4 +8,4 @@ class Finch(models.Model):
     color = models.TextField(max_length=250)
     
     def __str__(self):
-       return self.name, self.type, self.color
+       return self.name
